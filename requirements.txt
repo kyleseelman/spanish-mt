@@ -1,3 +1,7 @@
 numpy
 spacy 
 transformers
+datasets
+pandas
+torch
+sklearn

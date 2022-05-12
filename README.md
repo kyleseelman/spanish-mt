@@ -2,6 +2,7 @@
 
 #### These scripts are still in development, so the code is currently not modular (sorry!) each file needs to be adapted to point to the correct directory for all models trained/data created throughout this process
 #### Download Europarl dataset from: https://www.statmt.org/europarl/ and change data path in code to location of data
+#### Run 'python3 -m spacy download es_core_news_md' to download Spanish parser from spaCy
 #### Run 'pip install -r requirements.txt' to install all necessary dependencies
 #### Run 'python europarl.py' to generate the gender-balanced dataset of 100k samples. It also outputs pronoun proportions of before and after. (Takes a while)
 #### Run 'python combine_data.py' to generate the counterfactuals for English and combine the English and Spanish translations into a single dataset
